@@ -26,6 +26,8 @@ public class Ipodrom2 {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        if (mAnotherOption.isAlive()) {
+            mAnotherOption.join();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Выберите надежного букмекера:" + "  " +
                 "1.БК ЛЕОН БК, БК ЛЕОН БК, БК ЛЕОН БК, БК, ЛЕОН, БК" + "  " +
@@ -43,9 +45,6 @@ public class Ipodrom2 {
                 System.out.println("победила 1");
             if (horse2> horse1)
                 System.out.println("победила 2");
-
-        if (mAnotherOption.isAlive()) {
-                    mAnotherOption.join();
             }
         }
     }
