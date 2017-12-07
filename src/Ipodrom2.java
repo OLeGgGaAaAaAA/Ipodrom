@@ -16,7 +16,7 @@ public class Ipodrom2 {
         int k = 30;
         int h = 50;
         int randomRunning2 = k + (int) (Math.random() * h);
-        int horse2 = randomRunning;
+        int horse2 = randomRunning2;
 
         int a = 300;
         int b = 400;
