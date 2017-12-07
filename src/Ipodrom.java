@@ -27,6 +27,8 @@ public class Ipodrom extends Thread {
                 "1.БК ЛЕОН БК, БК ЛЕОН БК, БК ЛЕОН БК, БК, ЛЕОН, БК" + "  " +
                 "2.Вот это преессс, разве это пресс? ВОТ ЭТО ПРЕЕСС 1xBET");
         scanner.next();
+        System.out.println("Введите сумму");
+        scanner.next();
         System.out.println("Выберите конячку:" + "  " +
                 "1. horse1" + "  " +
                 "2. horse2");
